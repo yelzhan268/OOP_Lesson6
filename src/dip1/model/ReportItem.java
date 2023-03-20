@@ -1,6 +1,6 @@
 package dip1.model;
 
-public class ReportItem{
+public class ReportItem {
     private final String description;
     private final float amount;
 
