@@ -1,4 +1,4 @@
-package srp1;
+ï»¿package srp1;
 
 import srp1.figure.Point;
 import srp1.figure.Square;
@@ -6,7 +6,7 @@ import srp1.figure.Square;
 public class Main {
     public static void main(String[] args) {
         Square square = new Square(new Point(1,1), 5);
-        System.out.printf("Ïëîùàäü ôèãóğû: %d \n", square.getArea());
+        System.out.printf("????????????????????? ??????????????????: %d \n", square.getArea());
         square.draw();
     }
 }
