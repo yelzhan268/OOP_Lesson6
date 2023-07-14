@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Report{
-    private List<ReportItem> items;	// Отчетные данные
+    private List<ReportItem> items;	// РћС‚С‡РµС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ
 
-    // расчет отчетных данных
+    // СЂР°СЃС‡РµС‚ РѕС‚С‡РµС‚РЅС‹С… РґР°РЅРЅС‹С…
     public void calculate(){
         items =  new ArrayList<ReportItem>();
         items.add(new ReportItem("First", (float)5));
