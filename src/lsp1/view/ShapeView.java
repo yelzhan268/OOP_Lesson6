@@ -10,7 +10,7 @@ public class ShapeView {
     }
 
     public void showArea() {
-        System.out.print("Площадь прямоугольника равна:");
+        System.out.print("Area of rectangle equal:");
         System.out.println(rectangle.getArea());
     }
 }

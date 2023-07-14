@@ -24,6 +24,6 @@ public class Main {
             }
         }
 
-        System.out.printf("Сумма площадей фигур равна %f \n", sumArea);
+        System.out.printf("Sum of areas equals %f \n", sumArea);
     }
 }

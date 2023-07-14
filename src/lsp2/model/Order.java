@@ -15,6 +15,6 @@ public class Order {
 
     @Override
     public String toString() {
-        return String.format("Количество = %d, Цена = %d", quantity, price);
+        return String.format("Quantity = %d, Price = %d", quantity, price);
     }
 }

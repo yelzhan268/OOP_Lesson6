@@ -15,6 +15,6 @@ public class Main {
             System.out.println(order);
         }
 
-        System.out.printf("Сумма заказа %d", calculator.calcAmount());
+        System.out.printf("Order sum %d", calculator.calcAmount());
     }
 }

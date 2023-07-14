@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Report{
-    private List<ReportItem> items;	// Отчетные данные
+    private List<ReportItem> items;	// report data
 
     // расчет отчетных данных
     public void calculate(){
