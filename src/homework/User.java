@@ -3,8 +3,9 @@ package homework;
 import java.util.HashMap;
 
 import homework.impl.Persister;
+import homework.impl.Report;
 
-public class User implements Persister {
+public class User implements Persister, Report {
     private final String name;
     public HashMap<Integer, String> users;
     public int count;
@@ -30,7 +31,8 @@ public class User implements Persister {
         return users;
     }
 
-    // public void getUsers() {
-    //     System.out.println(reports);
-    // }
+    @Override
+    public void report() {
+        System.out.println("Report for user " + name);
+    }
 }
