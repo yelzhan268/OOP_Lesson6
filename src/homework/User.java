@@ -1,22 +1,36 @@
 package homework;
 
-public class User{
+import java.util.HashMap;
+
+import homework.impl.Persister;
+
+public class User implements Persister {
     private final String name;
+    public HashMap<Integer, String> users;
+    public int count;
 
     public User(String name){
         this.name = name;
+        this.users = new HashMap<>();
     }
 
     public String getName(){
         return name;
     }
 
-    public void save(){
-        Persister persister = new Persister(this);
-        persister.save();
+    @Override
+    public void save() {
+        users.put(count, name);
+        count++;
+        System.out.println("User saved: " + name);
     }
 
-    public void report(){
-        System.out.println("Report for user: " + name);
+    @Override
+    public HashMap<Integer, String> getUsers(){
+        return users;
     }
+
+    // public void getUsers() {
+    //     System.out.println(reports);
+    // }
 }

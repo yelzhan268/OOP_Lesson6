@@ -11,4 +11,8 @@ public class Square  implements Shape {
     public int getSide() {
         return side;
     }
+    @Override
+    public double getArea() {
+        return Math.pow(side, 2);
+    }
 }
